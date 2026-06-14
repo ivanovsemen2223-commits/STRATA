@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strata — Архитектура и дизайн</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header reveal">
+    <div class="logo">Strata</div>
+    <nav class="nav">
+      <a href="#">О нас</a>
+      <a href="#">Услуги</a>
+      <a href="#">Портфолио</a>
+      <a href="#">Процесс</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero reveal">
+    <div class="hero-main">
+      <div class="hero-img" style="background-image:url('assets/hero.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Проектируем пространства,<br>вдохновляющие и вечные</h1>
+        <p class="hero-sub">Мы превращаем идеи в неподвластную времени<br>архитектуру, сочетая инновационный дизайн<br>с функциональным совершенством.</p>
+      </div>
+    </div>
+    <a class="hero-cta" href="#">Записаться на бесплатную консультацию</a>
+    <div class="hero-side" style="background-image:url('assets/hero_side.jpg')"></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about">
+    <div class="about-left reveal">
+      <h2 class="about-title">О компании</h2>
+      <p class="about-text">В Strata мы убеждены, что архитектура — это больше, чем просто здания; это создание среды, которая улучшает жизнь человека.</p>
+      <div class="logos">
+        <span class="logo-cnbc">❖ CNBC</span>
+        <span class="logo-orn">officernd</span>
+        <span class="logo-arc">◇ ARCONIC</span>
+      </div>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat">
+        <span class="stat-num">25+</span>
+        <span class="stat-label">Лет совершенства<br>в архитектуре и дизайне</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Успешно завершённых<br>проектов</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">98%</span>
+        <span class="stat-label">Уровень удержания<br>клиентов</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">15+</span>
+        <span class="stat-label">Стран с нашими<br>проектами</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services">
+    <div class="services-head reveal">
+      <h2 class="section-title">Услуги, которые мы предлагаем</h2>
+      <div class="arrows">
+        <button class="arrow" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="arrow dark" aria-label="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+    <div class="service-grid">
+      <article class="service-card reveal">
+        <div class="service-img" style="background-image:url('assets/s1.jpg')"><span class="badge">01</span></div>
+        <h3>Архитектура</h3>
+        <p>От первичной концепции до схематичного проектирования.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-img" style="background-image:url('assets/s2.jpg')"><span class="badge">02</span></div>
+        <h3>Интерьер</h3>
+        <p>Создаём цельные интерьеры, отражающие ваш стиль.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-img" style="background-image:url('assets/s3.jpg')"><span class="badge">03</span></div>
+        <h3>Градостроение</h3>
+        <p>Проектируем пространства между зданиями и природой.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-img" style="background-image:url('assets/s4.jpg')"><span class="badge">04</span></div>
+        <h3>Управление</h3>
+        <p>Контроль и сопровождение всего процесса строительства.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="portfolio">
+    <div class="port-grid">
+      <div class="port-intro reveal">
+        <h2 class="section-title">Наше портфолио<br>передовых проектов</h2>
+        <p>Подборка избранных работ, которые отражают нашу приверженность совершенству дизайна, инновациям и доверию клиентов.</p>
+      </div>
+
+      <a class="port-item p-restaurant reveal" style="background-image:url('assets/p_restaurant.jpg')" href="#">
+        <span class="port-label">Коммерческий ресторан</span>
+      </a>
+
+      <a class="port-item p-house reveal" style="background-image:url('assets/p_house.jpg')" href="#">
+        <span class="port-label">Частный дом</span>
+      </a>
+
+      <a class="port-item p-office reveal" style="background-image:url('assets/p_office.jpg')" href="#">
+        <span class="port-label">Офис в Нью-Йорке</span>
+      </a>
+
+      <a class="port-item p-hotel reveal" style="background-image:url('assets/p_hotel.jpg')" href="#">
+        <span class="port-label">Гостиничные номера</span>
+      </a>
+
+      <a class="port-more reveal" href="#">Смотреть все проекты</a>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials">
+    <div class="tst-head reveal">
+      <h2 class="section-title">Что говорят<br>наши клиенты</h2>
+      <p>Доверие клиентов — лучшая оценка нашей работы. Вот что говорят те, кто уже воплотил проекты вместе с нами.</p>
+    </div>
+    <div class="tst-grid">
+      <article class="tst-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tst-text">Команда Strata превратила наши идеи в дом мечты. Внимание к деталям и чувство пространства — на высшем уровне.</p>
+        <div class="tst-author">
+          <span class="avatar">АК</span>
+          <span class="au-info"><b>Анна Кузнецова</b><i>Владелица частного дома</i></span>
+        </div>
+      </article>
+      <article class="tst-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tst-text">Профессионализм на каждом этапе: от концепции до сдачи объекта. Сроки соблюдены, результат превзошёл ожидания.</p>
+        <div class="tst-author">
+          <span class="avatar">ДС</span>
+          <span class="au-info"><b>Дмитрий Соколов</b><i>Девелопер</i></span>
+        </div>
+      </article>
+      <article class="tst-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tst-text">Интерьер нашего ресторана стал визитной карточкой. Гости отмечают атмосферу, созданную архитекторами Strata.</p>
+        <div class="tst-author">
+          <span class="avatar">ЕМ</span>
+          <span class="au-info"><b>Елена Морозова</b><i>Ресторатор</i></span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer reveal">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="logo light">Strata</div>
+        <p>Архитектура, вдохновляющая и вечная. Проектируем пространства, в которых хочется жить и работать.</p>
+      </div>
+      <div class="foot-nav">
+        <span class="foot-h">Навигация</span>
+        <a href="#">О нас</a>
+        <a href="#">Услуги</a>
+        <a href="#">Портфолио</a>
+        <a href="#">Процесс</a>
+        <a href="#">Контакты</a>
+      </div>
+      <div class="foot-contact">
+        <span class="foot-h">Свяжитесь с нами</span>
+        <p>Готовы обсудить ваш проект? Напишите нам в Telegram.</p>
+        <a class="tg-btn" href="https://t.me/Frilste" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M21.5 4.3 2.9 11.5c-1.1.4-1.1 1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.2-.5-1.8-1.3-1.5Z"/></svg>
+          Telegram
+        </a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Strata. Все права защищены.</span>
+      <span>Сделано с вниманием к деталям</span>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
